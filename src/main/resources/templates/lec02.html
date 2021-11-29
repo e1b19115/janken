@@ -13,6 +13,20 @@
     Hi [[${name}]]
   </div>
   </p>
+  <div>
+    <a href="/lec02/gu">ぐー</a>
+    <a href="/lec02/tyoki">ちょき</a>
+    <a href="/lec02/pa">ぱー</a>
+  </div>
+  <div th:if="${playerhand}">
+    あなたの手 [[${playerhand}]]
+  </div>
+  <div th:if="${cpuhand}">
+    相手の手 [[${cpuhand}]]
+  </div>
+  <div th:if="${judge}">
+    結果 [[${judge}]]
+  </div>
 </body>
 
 </html>
